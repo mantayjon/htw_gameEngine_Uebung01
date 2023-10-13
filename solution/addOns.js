@@ -12,6 +12,23 @@ function drawRectangle(x, y, w, h, c) {
 	rect(x, y, w, h);
 }
 
+function drawRotatedCanon(x, y, w, h, angle, c) {
+	
+	push();
+
+	fill(c);
+	noStroke();
+	rectMode(CORNER);
+
+	translate(x,y);
+	rotate(angle);
+
+	translate(0,-h/2)
+	rect(0, 0, w, h);
+
+	pop();
+}
+
 function drawTriangle(x1, y1, x2, y2, x3, y3, c) {
 
 	fill(c);

@@ -48,7 +48,7 @@ function draw() {
   /* Canon */
  
   
-  drawRectangle(100, 320, 5, 180, '#000000');
+  drawRotatedCanon(100, 500, 180, 5, Math.PI*1.9, '#000000');
 
   drawCircle(100, 500, 10, '#000000');
 
