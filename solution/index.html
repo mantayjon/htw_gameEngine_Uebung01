@@ -10,14 +10,24 @@
 	        padding: 0;
 	        margin: 0;
 	      }
+		  .slidecontainer {
+            position: fixed; /* Fixed positioning */
+            top: 515px; /* Adjust top position as needed */
+            left: 120px; /* Adjust left position as needed */
+           
+        }
 	    </style>
 	    <script src="../p5/p5.js"></script>
-	    <script src="scenario_s0585089_Uebung_01.js"></script>							<!-- main programm -->
-	    <script src="addOns.js"></script>								<!-- for later use, subroutines for example  -->
+	    <script src="scene_s0585089_Uebung_01.js"></script>							<!-- main programm -->
+	    <script src="drawing_s0585089_Uebung_01.js"></script>								<!-- for later use, subroutines for example  -->
 	</head>
 
 	<body>
-        <main></main>
+        <main>
+			<div class="slidecontainer">
+				<input type="range" min="50" max="67" value="50" class="slider" id="myRange">
+			</div>
+		</main>
          </body>
 
 

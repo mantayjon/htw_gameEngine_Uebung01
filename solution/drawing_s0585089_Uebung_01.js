@@ -22,8 +22,8 @@ function drawRotatedCanon(x, y, w, h, angle, c) {
 
 	translate(x,y);
 	rotate(angle);
-
 	translate(0,-h/2)
+	
 	rect(0, 0, w, h);
 
 	pop();
